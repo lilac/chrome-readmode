@@ -229,6 +229,9 @@ body.reader sup{
 body.reader dt{
   font-weight: bold;
 }
+body.reader tr:nth-child(even) {
+  background: #e8e7e7;
+}
 
 #reader-wrap article img,
 #reader-wrap *[id*="article"] img,
